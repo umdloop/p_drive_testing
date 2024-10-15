@@ -1,0 +1,25 @@
+[01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:13:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Motor[m[K’
+   13 | class [01;31m[KMotor[m[K {
+      |       [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:1[m[K:
+[01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:14:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Motor[m[K’
+   14 | class [01;36m[KMotor[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:104:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass MotorGroup[m[K’
+  104 | class [01;31m[KMotorGroup[m[K {
+      |       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:1[m[K:
+[01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:36:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass MotorGroup[m[K’
+   36 | class [01;36m[KMotorGroup[m[K {
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:150:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass RoverMotors[m[K’
+  150 | class [01;31m[KRoverMotors[m[K {
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:1[m[K:
+[01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:51:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass RoverMotors[m[K’
+   51 | class [01;36m[KRoverMotors[m[K {
+      |       [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rover_control.dir/build.make:90: CMakeFiles/rover_control.dir/src/RMD_Motor.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rover_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

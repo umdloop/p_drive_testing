@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target rover_control[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rover_control.dir/src/RoverControl.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rover_control[0m

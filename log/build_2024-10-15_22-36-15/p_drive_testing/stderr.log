@@ -1,0 +1,16 @@
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `RoverControl::RoverControl()':
+RoverControl.cpp:(.text._ZN12RoverControlC2Ev[_ZN12RoverControlC5Ev]+0x3c4): undefined reference to `RoverMotors::brakes_off()'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `RoverControl::moveStraight()':
+RoverControl.cpp:(.text._ZN12RoverControl12moveStraightEv[_ZN12RoverControl12moveStraightEv]+0x40): undefined reference to `RoverMotors::set_speed(float)'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `void __gnu_cxx::new_allocator<Motor>::construct<Motor, int>(Motor*, int&&)':
+RoverControl.cpp:(.text._ZN9__gnu_cxx13new_allocatorI5MotorE9constructIS1_JiEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI5MotorE9constructIS1_JiEEEvPT_DpOT0_]+0x48): undefined reference to `Motor::Motor(int, bool)'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `void __gnu_cxx::new_allocator<MotorGroup>::construct<MotorGroup, std::vector<Motor*, std::allocator<Motor*> > >(MotorGroup*, std::vector<Motor*, std::allocator<Motor*> >&&)':
+RoverControl.cpp:(.text._ZN9__gnu_cxx13new_allocatorI10MotorGroupE9constructIS1_JSt6vectorIP5MotorSaIS6_EEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI10MotorGroupE9constructIS1_JSt6vectorIP5MotorSaIS6_EEEEEvPT_DpOT0_]+0x68): undefined reference to `MotorGroup::MotorGroup(std::vector<Motor*, std::allocator<Motor*> >, bool)'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `void __gnu_cxx::new_allocator<RoverMotors>::construct<RoverMotors, MotorGroup*, MotorGroup*, double>(RoverMotors*, MotorGroup*&&, MotorGroup*&&, double&&)':
+RoverControl.cpp:(.text._ZN9__gnu_cxx13new_allocatorI11RoverMotorsE9constructIS1_JP10MotorGroupS5_dEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI11RoverMotorsE9constructIS1_JP10MotorGroupS5_dEEEvPT_DpOT0_]+0x78): undefined reference to `RoverMotors::RoverMotors(MotorGroup*, MotorGroup*, float, bool)'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `void __gnu_cxx::new_allocator<Motor>::destroy<Motor>(Motor*)':
+RoverControl.cpp:(.text._ZN9__gnu_cxx13new_allocatorI5MotorE7destroyIS1_EEvPT_[_ZN9__gnu_cxx13new_allocatorI5MotorE7destroyIS1_EEvPT_]+0x14): undefined reference to `Motor::~Motor()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/rover_control.dir/build.make:183: rover_control] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rover_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

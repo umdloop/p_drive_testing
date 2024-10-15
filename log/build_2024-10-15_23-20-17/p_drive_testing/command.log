@@ -1,0 +1,4 @@
+Invoking command in '/home/rishavn/p_drive_testing/build/p_drive_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rishavn/p_drive_testing/build/p_drive_testing -- -j8 -l8
+Invoked command in '/home/rishavn/p_drive_testing/build/p_drive_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rishavn/p_drive_testing/build/p_drive_testing -- -j8 -l8
+Invoking command in '/home/rishavn/p_drive_testing/build/p_drive_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rishavn/p_drive_testing/build/p_drive_testing
+Invoked command in '/home/rishavn/p_drive_testing/build/p_drive_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rishavn/p_drive_testing/build/p_drive_testing

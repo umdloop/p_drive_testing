@@ -1,0 +1,37 @@
+[0.021s] Invoking command in '/home/rishavn/p_drive_testing/build/p_drive_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rishavn/p_drive_testing/build/p_drive_testing -- -j8 -l8
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target rover_control[0m
+[0.110s] [ 33%] [32mBuilding CXX object CMakeFiles/rover_control.dir/src/RMD_Motor.cpp.o[0m
+[0.365s] In file included from [01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:1[m[K:
+[0.365s] [01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:[m[K In constructor ‘[01m[KMotorGroup::MotorGroup(std::vector<Motor*>, bool)[m[K’:
+[0.365s] [01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:48:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KMotorGroup::debug_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[0.365s]    48 |     bool [01;35m[Kdebug_[m[K;
+[0.365s]       |          [01;35m[K^~~~~~[m[K
+[0.365s] [01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:47:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MotorGroup::brakes_engaged_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[0.365s]    47 |     bool [01;35m[Kbrakes_engaged_[m[K;
+[0.365s]       |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[0.365s] [01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:94:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[0.365s]    94 | [01;35m[KMotorGroup[m[K::MotorGroup(std::vector<Motor*> motors, bool debug)
+[0.365s]       | [01;35m[K^~~~~~~~~~[m[K
+[0.418s] [ 66%] [32m[1mLinking CXX executable rover_control[0m
+[0.512s] [100%] Built target rover_control
+[0.517s] Invoked command in '/home/rishavn/p_drive_testing/build/p_drive_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rishavn/p_drive_testing/build/p_drive_testing -- -j8 -l8
+[0.538s] Invoking command in '/home/rishavn/p_drive_testing/build/p_drive_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rishavn/p_drive_testing/build/p_drive_testing
+[0.540s] -- Install configuration: ""
+[0.541s] -- Execute custom install script
+[0.542s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/lib/p_drive_testing/rover_control
+[0.546s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/ament_index/resource_index/package_run_dependencies/p_drive_testing
+[0.550s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/ament_index/resource_index/parent_prefix_path/p_drive_testing
+[0.554s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/environment/ament_prefix_path.sh
+[0.559s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/environment/ament_prefix_path.dsv
+[0.562s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/environment/path.sh
+[0.566s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/environment/path.dsv
+[0.570s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/local_setup.bash
+[0.573s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/local_setup.sh
+[0.576s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/local_setup.zsh
+[0.579s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/local_setup.dsv
+[0.582s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/package.dsv
+[0.585s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/ament_index/resource_index/packages/p_drive_testing
+[0.588s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/cmake/p_drive_testingConfig.cmake
+[0.591s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/cmake/p_drive_testingConfig-version.cmake
+[0.594s] -- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/package.xml
+[0.600s] Invoked command in '/home/rishavn/p_drive_testing/build/p_drive_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rishavn/p_drive_testing/build/p_drive_testing

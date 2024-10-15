@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/rishavn/p_drive_testing/build/p_drive_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rishavn/p_drive_testing/build/p_drive_testing -- -j8 -l8
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/rover_control.dir/src/RoverControl.cpp.o[0m
+[2.127s] [01m[K/home/rishavn/p_drive_testing/src/src/RoverControl.cpp:[m[K In constructor ‘[01m[KRoverControl::RoverControl()[m[K’:
+[2.128s] [01m[K/home/rishavn/p_drive_testing/src/src/RoverControl.cpp:29:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[2.128s]    29 |             [01;31m[K500ms[m[K, std::bind(&RoverControl::moveStraight, this)
+[2.128s]       |             [01;31m[K^~~~~[m[K
+[2.548s] gmake[2]: *** [CMakeFiles/rover_control.dir/build.make:76: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o] Error 1
+[2.548s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rover_control.dir/all] Error 2
+[2.548s] gmake: *** [Makefile:146: all] Error 2
+[2.558s] Invoked command in '/home/rishavn/p_drive_testing/build/p_drive_testing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rishavn/p_drive_testing/build/p_drive_testing -- -j8 -l8

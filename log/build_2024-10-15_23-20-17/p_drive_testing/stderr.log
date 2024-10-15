@@ -1,0 +1,11 @@
+In file included from [01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:1[m[K:
+[01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:[m[K In constructor ‘[01m[KMotorGroup::MotorGroup(std::vector<Motor*>, bool)[m[K’:
+[01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:48:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KMotorGroup::debug_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   48 |     bool [01;35m[Kdebug_[m[K;
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/rishavn/p_drive_testing/src/include/RMD_Motor.h:47:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MotorGroup::brakes_engaged_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   47 |     bool [01;35m[Kbrakes_engaged_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rishavn/p_drive_testing/src/src/RMD_Motor.cpp:94:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   94 | [01;35m[KMotorGroup[m[K::MotorGroup(std::vector<Motor*> motors, bool debug)
+      | [01;35m[K^~~~~~~~~~[m[K

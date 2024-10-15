@@ -1,0 +1,7 @@
+[01m[K/home/rishavn/p_drive_testing/src/src/RoverControl.cpp:[m[K In constructor ‘[01m[KRoverControl::RoverControl()[m[K’:
+[01m[K/home/rishavn/p_drive_testing/src/src/RoverControl.cpp:29:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   29 |             [01;31m[K500ms[m[K, std::bind(&RoverControl::moveStraight, this)
+      |             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rover_control.dir/build.make:76: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rover_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

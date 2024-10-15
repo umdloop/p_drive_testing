@@ -1,0 +1,41 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/rishavn/p_drive_testing/src/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rishavn/p_drive_testing/build/p_drive_testing
+[35m[1mConsolidate compiler generated dependencies of target rover_control[0m
+[ 33%] [32m[1mLinking CXX executable rover_control[0m
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `RoverControl::RoverControl()':
+RoverControl.cpp:(.text._ZN12RoverControlC2Ev[_ZN12RoverControlC5Ev]+0x3c4): undefined reference to `RoverMotors::brakes_off()'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `RoverControl::moveStraight()':
+RoverControl.cpp:(.text._ZN12RoverControl12moveStraightEv[_ZN12RoverControl12moveStraightEv]+0x40): undefined reference to `RoverMotors::set_speed(float)'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `void __gnu_cxx::new_allocator<Motor>::construct<Motor, int>(Motor*, int&&)':
+RoverControl.cpp:(.text._ZN9__gnu_cxx13new_allocatorI5MotorE9constructIS1_JiEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI5MotorE9constructIS1_JiEEEvPT_DpOT0_]+0x48): undefined reference to `Motor::Motor(int, bool)'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `void __gnu_cxx::new_allocator<MotorGroup>::construct<MotorGroup, std::vector<Motor*, std::allocator<Motor*> > >(MotorGroup*, std::vector<Motor*, std::allocator<Motor*> >&&)':
+RoverControl.cpp:(.text._ZN9__gnu_cxx13new_allocatorI10MotorGroupE9constructIS1_JSt6vectorIP5MotorSaIS6_EEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI10MotorGroupE9constructIS1_JSt6vectorIP5MotorSaIS6_EEEEEvPT_DpOT0_]+0x68): undefined reference to `MotorGroup::MotorGroup(std::vector<Motor*, std::allocator<Motor*> >, bool)'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `void __gnu_cxx::new_allocator<RoverMotors>::construct<RoverMotors, MotorGroup*, MotorGroup*, double>(RoverMotors*, MotorGroup*&&, MotorGroup*&&, double&&)':
+RoverControl.cpp:(.text._ZN9__gnu_cxx13new_allocatorI11RoverMotorsE9constructIS1_JP10MotorGroupS5_dEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI11RoverMotorsE9constructIS1_JP10MotorGroupS5_dEEEvPT_DpOT0_]+0x78): undefined reference to `RoverMotors::RoverMotors(MotorGroup*, MotorGroup*, float, bool)'
+/usr/bin/ld: CMakeFiles/rover_control.dir/src/RoverControl.cpp.o: in function `void __gnu_cxx::new_allocator<Motor>::destroy<Motor>(Motor*)':
+RoverControl.cpp:(.text._ZN9__gnu_cxx13new_allocatorI5MotorE7destroyIS1_EEvPT_[_ZN9__gnu_cxx13new_allocatorI5MotorE7destroyIS1_EEvPT_]+0x14): undefined reference to `Motor::~Motor()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/rover_control.dir/build.make:183: rover_control] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rover_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target rover_control[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rover_control.dir/src/RMD_Motor.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable rover_control[0m
+[100%] Built target rover_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/lib/p_drive_testing/rover_control
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/ament_index/resource_index/package_run_dependencies/p_drive_testing
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/ament_index/resource_index/parent_prefix_path/p_drive_testing
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/environment/ament_prefix_path.sh
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/environment/path.sh
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/environment/path.dsv
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/local_setup.bash
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/local_setup.sh
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/local_setup.zsh
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/local_setup.dsv
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/package.dsv
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/ament_index/resource_index/packages/p_drive_testing
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/cmake/p_drive_testingConfig.cmake
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/cmake/p_drive_testingConfig-version.cmake
+-- Symlinking: /home/rishavn/p_drive_testing/install/p_drive_testing/share/p_drive_testing/package.xml

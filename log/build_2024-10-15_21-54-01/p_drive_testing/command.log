@@ -1,0 +1,2 @@
+Invoking command in '/home/rishavn/p_drive_testing/build/p_drive_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rishavn/p_drive_testing/src -DCMAKE_INSTALL_PREFIX=/home/rishavn/p_drive_testing/install/p_drive_testing
+Invoked command in '/home/rishavn/p_drive_testing/build/p_drive_testing' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rishavn/p_drive_testing/src -DCMAKE_INSTALL_PREFIX=/home/rishavn/p_drive_testing/install/p_drive_testing
